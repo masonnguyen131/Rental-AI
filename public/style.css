@@ -1,0 +1,70 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .container {
+    display: flex;
+    height: 100%;
+  }
+  
+  /* Google Maps Section */
+  #map {
+    flex: 3;
+    height: 100%;
+  }
+  
+  /* Chatbot Section */
+  #chatbot {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid #ccc;
+    background-color: #f8f9fa;
+  }
+  
+  #chat-window {
+    flex: 1;
+    overflow-y: auto;
+    padding: 10px;
+  }
+  
+  #messages {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  #chat-input {
+    display: flex;
+    padding: 10px;
+    background-color: #ffffff;
+  }
+  
+  #user-input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #send-btn {
+    margin-left: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #send-btn:hover {
+    background-color: #0056b3;
+  }
+  
